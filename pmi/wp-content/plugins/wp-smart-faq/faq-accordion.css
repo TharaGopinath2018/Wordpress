@@ -1,0 +1,53 @@
+ .container_faq{
+ display:block;
+		width: 100%;
+		height : auto ;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	.container_faq .item
+	{
+		display : block;
+		width : inherit ;
+		height : 40px;
+		line-height : 40px;
+		background : #555 ;
+		border: 1px solid #000 ;
+		cursor: pointer;
+		color: #fff;
+	}
+
+	.item-data
+	{
+		display : none ; 
+		width : inherit ;
+		height : auto ;
+		border: 1px solid #ccc;
+		padding:5px;
+	}
+
+	.container_faq .active {
+		background : #eee ;
+		color : #000 ;
+		display: block;
+	}
+	.active-tab{
+
+	}
+	.item-data div{
+		margin: 10px;
+	}
+	.icon{ /*Plus Image*/
+		width: 38px;
+		height: 38px;
+		display: inline-block;
+		background-repeat: no-repeat;
+		vertical-align: middle;
+		margin: 0 5px;
+		background-image: url('images/plus.png');
+	}
+
+	.active-tab .icon{ /*Minus Image*/
+		background-image: url('images/minus.png');
+	}
